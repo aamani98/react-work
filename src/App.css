@@ -1,0 +1,32 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.head h4{
+  color: rgb(41, 13, 92);
+  letter-spacing: .08rem;
+  font-weight: 600;
+}
+.head button{
+  background-color: rgb(41, 12, 95);
+  color: white;
+}
+.flash-card{
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+.flash-card:hover{
+  cursor: pointer;
+}
+.flash-card h5{
+  font-weight: 600;
+}
+#roww{
+  background-color: rgb(211, 209, 209);
+  border-radius: 5px;
+  box-shadow: 5px 10px 18px #888888;
+}
+#inner-card{
+  background-color: rgb(211, 209, 209);
+  border: 1px solid black;
+}
