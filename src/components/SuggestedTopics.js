@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from '../index.jpg';
 const SuggestedTopics = () => {
     return(
         <div>
@@ -10,7 +10,7 @@ const SuggestedTopics = () => {
             <div className = "mx-5">
                 <div className = "row mt-3" id = "roww">
                     <div className = "col my-3 flash-card bg-white ml-3 text-center">
-                        <div className = "my-2"><img src = "images/index.jpg" height = "60px" width = "100%"/></div>
+                        <div className = "my-2"><img src = {Image} alt = "books" height = "60px" width = "100%"/></div>
                         <div className = "text-center"><h5>Geography</h5></div>
                         <div className = "head mt-4 mb-3">
                             <div><h5>10 Questions</h5></div>
@@ -18,7 +18,7 @@ const SuggestedTopics = () => {
                         </div>
                     </div>
                     <div className = "col my-3 flash-card bg-white ml-3 text-center">
-                        <div className = "my-2"><img src = "images/index.jpg" height = "60px" width = "100%"/></div>
+                        <div className = "my-2"><img src = {Image} alt = "books" height = "60px" width = "100%"/></div>
                         <div className = "text-center"><h5>Economics</h5></div>
                         <div className = "head mt-4 mb-3">
                             <div><h5>10 Questions</h5></div>
@@ -26,7 +26,7 @@ const SuggestedTopics = () => {
                         </div>
                     </div>
                     <div className = "col my-3 flash-card bg-white ml-3 text-center">
-                        <div className = "my-2"><img src = "images/index.jpg" height = "60px" width = "100%"/></div>
+                        <div className = "my-2"><img src = {Image} alt = "books" height = "60px" width = "100%"/></div>
                         <div className = "text-center"><h5>History</h5></div>
                         <div className = "head mt-4 mb-3">
                             <div><h5>10 Questions</h5></div>
@@ -34,7 +34,7 @@ const SuggestedTopics = () => {
                         </div>
                     </div>
                     <div className = "col my-3 flash-card bg-white ml-3 mr-3 text-center">
-                        <div className = "my-2"><img src = "images/index.jpg" height = "60px" width = "100%"/></div>
+                        <div className = "my-2"><img src = {Image} alt = "books" height = "60px" width = "100%"/></div>
                         <div className = "text-center"><h5>Politics</h5></div>
                         <div className = "head mt-4 mb-3">
                             <div><h5>10 Questions</h5></div>
